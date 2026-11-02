@@ -1,22 +1,223 @@
-<section style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:980px;margin:0 auto;padding:8px 12px 32px 12px;color:#2b3a3f;line-height:1.6;">
-<div style="background:linear-gradient(135deg,#063c47 0%,#12908f 100%);border-radius:18px;padding:44px 40px;color:#fff;margin:8px 0 36px 0;">
-<h1 style="margin:0 0 10px 0;font-size:40px;line-height:1.15;color:#fff;font-weight:700;">Phone Auto Format</h1>
-<p style="margin:0 0 22px 0;font-size:19px;color:#d6f0f0;max-width:620px;">One consistent phone number format across your whole database &ndash; applied automatically, as your team types and saves.</p>
-<div><span style="display:inline-block;margin:0 8px 8px 0;padding:6px 16px;border:1px solid rgba(255,255,255,.55);border-radius:999px;font-size:14px;color:#fff;">Odoo 19</span><span style="display:inline-block;margin:0 8px 8px 0;padding:6px 16px;border:1px solid rgba(255,255,255,.55);border-radius:999px;font-size:14px;color:#fff;">Community &amp; Enterprise</span><span style="display:inline-block;margin:0 8px 8px 0;padding:6px 16px;border:1px solid rgba(255,255,255,.55);border-radius:999px;font-size:14px;color:#fff;">Free</span><span style="display:inline-block;margin:0 8px 8px 0;padding:6px 16px;border:1px solid rgba(255,255,255,.55);border-radius:999px;font-size:14px;color:#fff;">No external service</span></div>
-</div><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">Stop cleaning phone numbers by hand</h2><p style="font-size:16px;">People type numbers every way imaginable. That makes searching, matching, dialing and SMS unreliable. Phone Auto Format rewrites every number into <strong>one format you choose</strong>.</p>
-<table style="width:100%;border-collapse:collapse;margin:18px 0 8px 0;font-size:16px;">
-<tr><th style="text-align:left;padding:12px 16px;background:#fdecec;color:#b04646;border-radius:10px 0 0 0;">Typed by users</th><th style="text-align:left;padding:12px 16px;background:#dff3f2;color:#017e84;border-radius:0 10px 0 0;">Saved in Odoo</th></tr>
-<tr><td style="padding:12px 16px;border-bottom:1px solid #eef3f3;color:#8a959a;">0300 1234567</td><td style="padding:12px 16px;border-bottom:1px solid #eef3f3;font-weight:700;color:#063c47;">+92 300 1234567</td></tr>
-<tr><td style="padding:12px 16px;border-bottom:1px solid #eef3f3;color:#8a959a;">0092-300-1234567</td><td style="padding:12px 16px;border-bottom:1px solid #eef3f3;font-weight:700;color:#063c47;">+92 300 1234567</td></tr>
-<tr><td style="padding:12px 16px;color:#8a959a;">(0300) 123 4567</td><td style="padding:12px 16px;font-weight:700;color:#063c47;">+92 300 1234567</td></tr>
-</table><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">Features</h2><div style="display:flex;flex-wrap:wrap;gap:16px;"><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Formats as you type</div><div style="font-size:15px;color:#4a5a5f;">The number is rewritten the moment the user leaves the field, and again on save &ndash; so imports and API calls are covered too.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">You choose the format</div><div style="font-size:15px;color:#4a5a5f;">International, E.164, National, RFC&nbsp;3966 &ndash; or switch formatting off. Change it any time in Settings, no code needed.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Several numbers per field</div><div style="font-size:15px;color:#4a5a5f;">Separate numbers with a comma, semicolon or new line. Each one is formatted on its own.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Covers custom fields</div><div style="font-size:15px;color:#4a5a5f;">Any stored text field with <em>phone</em> or <em>mobile</em> in its name is handled, including fields added with Odoo Studio.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Safe by design</div><div style="font-size:15px;color:#4a5a5f;">A number that cannot be understood is left exactly as typed. Nobody ever loses input.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Private and offline</div><div style="font-size:15px;color:#4a5a5f;">Uses Odoo&rsquo;s own phone validation and the <em>phonenumbers</em> library. No external service &ndash; no data leaves your server.</div></div></div><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">See it in action</h2><figure style="margin:0 0 28px 0;"><img src="screenshot1.png" alt="Everything is configured from one page in Settings." style="width:100%;max-width:900px;border:1px solid #dfe9e9;border-radius:12px;box-shadow:0 6px 22px rgba(6,60,71,.12);"/><figcaption style="margin-top:8px;font-size:14px;color:#6a7a7f;">Everything is configured from one page in Settings.</figcaption></figure><figure style="margin:0 0 28px 0;"><img src="screenshot2.png" alt="Pick International, E.164, National, RFC&nbsp;3966 &ndash; or turn formatting off." style="width:100%;max-width:900px;border:1px solid #dfe9e9;border-radius:12px;box-shadow:0 6px 22px rgba(6,60,71,.12);"/><figcaption style="margin-top:8px;font-size:14px;color:#6a7a7f;">Pick International, E.164, National, RFC&nbsp;3966 &ndash; or turn formatting off.</figcaption></figure><figure style="margin:0 0 28px 0;"><img src="screenshot3.png" alt="Allow one number, or several numbers, in a single phone field." style="width:100%;max-width:900px;border:1px solid #dfe9e9;border-radius:12px;box-shadow:0 6px 22px rgba(6,60,71,.12);"/><figcaption style="margin-top:8px;font-size:14px;color:#6a7a7f;">Allow one number, or several numbers, in a single phone field.</figcaption></figure><figure style="margin:0 0 28px 0;"><img src="screenshot4.png" alt="Numbers appear in the chosen format on contacts and employees." style="width:100%;max-width:620px;border:1px solid #dfe9e9;border-radius:12px;box-shadow:0 6px 22px rgba(6,60,71,.12);"/><figcaption style="margin-top:8px;font-size:14px;color:#6a7a7f;">Numbers appear in the chosen format on contacts and employees.</figcaption></figure><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">Set up in three steps</h2><div style="display:flex;flex-wrap:wrap;gap:16px;"><div style="flex:1 1 260px;border-radius:14px;padding:20px 22px;background:#f3fafa;"><div style="width:34px;height:34px;line-height:34px;text-align:center;border-radius:50%;background:#017e84;color:#fff;font-weight:700;margin-bottom:10px;">1</div><div style="font-weight:700;font-size:17px;color:#063c47;margin-bottom:4px;">Install</div><div style="font-size:15px;color:#4a5a5f;">Install <strong>Phone Auto Format</strong> from Apps. Make sure the <em>phonenumbers</em> Python library is available (Odoo&rsquo;s phone validation already uses it).</div></div><div style="flex:1 1 260px;border-radius:14px;padding:20px 22px;background:#f3fafa;"><div style="width:34px;height:34px;line-height:34px;text-align:center;border-radius:50%;background:#017e84;color:#fff;font-weight:700;margin-bottom:10px;">2</div><div style="font-weight:700;font-size:17px;color:#063c47;margin-bottom:4px;">Choose a format</div><div style="font-size:15px;color:#4a5a5f;">Open <strong>Settings &rarr; Phone Auto Format</strong>, pick the number format and click Save.</div></div><div style="flex:1 1 260px;border-radius:14px;padding:20px 22px;background:#f3fafa;"><div style="width:34px;height:34px;line-height:34px;text-align:center;border-radius:50%;background:#017e84;color:#fff;font-weight:700;margin-bottom:10px;">3</div><div style="font-weight:700;font-size:17px;color:#063c47;margin-bottom:4px;">Done</div><div style="font-size:15px;color:#4a5a5f;">Numbers are formatted whenever a record is edited or saved. Set a country on your company for numbers typed without a country code.</div></div></div><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">Optional add-ons</h2><div style="display:flex;flex-wrap:wrap;gap:16px;"><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Phone Auto Format &ndash; CRM</div><div style="font-size:15px;color:#4a5a5f;">Leads and opportunities. Installs automatically when CRM is installed.</div></div><div style="flex:1 1 280px;border:1px solid #dfe9e9;border-radius:14px;padding:20px 22px;background:#fff;box-shadow:0 2px 8px rgba(6,60,71,.06);"><div style="font-weight:700;font-size:17px;color:#017e84;margin-bottom:6px;">Phone Auto Format &ndash; Employees</div><div style="font-size:15px;color:#4a5a5f;">Work, mobile, private and emergency phones. Installs automatically when Employees is installed.</div></div></div><h2 style="margin:40px 0 16px 0;font-size:26px;color:#063c47;font-weight:700;">Good to know</h2><ul style="font-size:15px;color:#4a5a5f;padding-left:20px;">
-<li>Existing records are reformatted the next time they are saved.</li>
-<li>Numbers typed without a <strong>+</strong> use the contact&rsquo;s country, or your company&rsquo;s country as a fallback.</li>
-<li>Works with Odoo 19.0, Community and Enterprise.</li>
-</ul><div style="margin-top:44px;border-radius:16px;background:#f3fafa;padding:28px 30px;">
-<div style="font-size:20px;font-weight:700;color:#063c47;margin-bottom:6px;">Need help or have an idea?</div>
-<p style="margin:0 0 16px 0;color:#4a5a5f;">Developed and maintained by <strong>Syed Sameed Zafar</strong> &ndash; Backend Engineer &amp; Odoo / ERP Consultant.</p>
-<a href="mailto:sameedzfr@gmail.com" style="display:inline-block;margin:0 10px 8px 0;padding:10px 22px;background:#017e84;color:#fff;border-radius:999px;text-decoration:none;font-weight:600;">Email me</a>
-<a href="https://syed-sameed-zafar.vercel.app/" style="display:inline-block;margin:0 10px 8px 0;padding:10px 22px;border:2px solid #017e84;color:#017e84;border-radius:999px;text-decoration:none;font-weight:600;">Visit my website</a>
+<!--
+  Phone Auto Format — Odoo Apps Store description
+  Place this file at: your_module/static/description/index.html
+  Keep screenshot1.png ... screenshot4.png beside this file in static/description/.
+  Markup intentionally uses simple tables, Bootstrap 4 utility classes and conservative inline styles.
+-->
+<div class="container-fluid" style="color:#2b3a3f; font-size:15px;">
+
+    <!-- HERO -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#063c47" class="bg-dark" style="border:0; margin:8px 0 28px 0; background-color:#063c47;">
+        <tr>
+            <td align="left" style="padding:36px 30px; color:#ffffff; background-color:#063c47;">
+                <p style="color:#8de0d9; font-size:12px; font-weight:bold; margin:0 0 10px 0;">ODOO 19  |  CONTACT DATA QUALITY</p>
+                <h1 style="color:#ffffff; font-size:34px; font-weight:bold; margin:0 0 12px 0;">Phone Auto Format</h1>
+                <p style="color:#e0f3f2; font-size:17px; margin:0 0 22px 0;">
+                    One consistent phone number format across your whole database — applied automatically as your team types and saves.
+                </p>
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="padding:5px 12px; border:1px solid #8de0d9; color:#ffffff; font-size:12px; font-weight:bold;">ODOO 19</td>
+                        <td width="8"></td>
+                        <td style="padding:5px 12px; border:1px solid #8de0d9; color:#ffffff; font-size:12px; font-weight:bold;">COMMUNITY &amp; ENTERPRISE</td>
+                        <td width="8"></td>
+                        <td style="padding:5px 12px; border:1px solid #8de0d9; color:#ffffff; font-size:12px; font-weight:bold;">FREE</td>
+                        <td width="8"></td>
+                        <td style="padding:5px 12px; border:1px solid #8de0d9; color:#ffffff; font-size:12px; font-weight:bold;">SELF-HOSTED</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- INTRO -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:30px 0 10px 0;">Clean phone data. Consistent records.</h2>
+    <p style="color:#4a5a5f; font-size:15px; margin:0 0 14px 0;">
+        Phone numbers are often entered with different spaces, symbols, prefixes and local formats. Those differences make records harder to search, compare and use. Phone Auto Format standardizes numbers automatically using the format you select in Odoo Settings.
+    </p>
+
+    <!-- BEFORE / AFTER -->
+    <table width="100%" border="0" cellpadding="12" cellspacing="0" style="margin:14px 0 24px 0; border:1px solid #dfe9e9;">
+        <tr>
+            <th width="50%" align="left" bgcolor="#fbeeee" style="color:#9b4141; font-size:14px; padding:12px;">AS ENTERED</th>
+            <th width="50%" align="left" bgcolor="#e5f5f3" style="color:#087e79; font-size:14px; padding:12px;">STANDARDIZED IN ODOO</th>
+        </tr>
+        <tr>
+            <td style="color:#718087; border-top:1px solid #e7eeee; padding:12px;">0300 1234567</td>
+            <td style="color:#063c47; font-weight:bold; border-top:1px solid #e7eeee; padding:12px;">+92 300 1234567</td>
+        </tr>
+        <tr>
+            <td style="color:#718087; border-top:1px solid #e7eeee; padding:12px;">0092-300-1234567</td>
+            <td style="color:#063c47; font-weight:bold; border-top:1px solid #e7eeee; padding:12px;">+92 300 1234567</td>
+        </tr>
+        <tr>
+            <td style="color:#718087; border-top:1px solid #e7eeee; padding:12px;">(0300) 123 4567</td>
+            <td style="color:#063c47; font-weight:bold; border-top:1px solid #e7eeee; padding:12px;">+92 300 1234567</td>
+        </tr>
+    </table>
+
+    <!-- FEATURES -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 8px 0;">Built for everyday Odoo workflows</h2>
+    <p style="color:#718087; font-size:14px; margin:0 0 12px 0;">Practical formatting controls, without a separate service or a complicated workflow.</p>
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="8" style="margin:0 0 20px 0;">
+        <tr>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">01 &nbsp; Formats as you type</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">The number is reformatted when the user leaves the field and again when the record is saved, helping cover normal form edits as well as imports and API-driven updates.</p>
+            </td>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">02 &nbsp; Choose your format</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Select International, E.164, National or RFC 3966 formatting — or switch formatting off. Update your choice any time in Settings.</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">03 &nbsp; Multiple numbers per field</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Separate numbers with a comma, semicolon or new line. Each number is processed independently.</p>
+            </td>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">04 &nbsp; Custom field support</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Stored text fields with <strong>phone</strong> or <strong>mobile</strong> in their technical name are handled too, including fields created with Odoo Studio.</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">05 &nbsp; Safe by design</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">If a value cannot be interpreted as a phone number, it is left unchanged. Existing user input is not silently discarded.</p>
+            </td>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">06 &nbsp; Private and self-hosted</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Uses Odoo's phone validation and the <em>phonenumbers</em> library. No external formatting service is used and phone data stays on your Odoo server.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- SCREENSHOTS -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 8px 0;">A closer look</h2>
+    <p style="color:#718087; font-size:14px; margin:0 0 18px 0;">Configure the behavior once, then let the module handle phone number formatting in your Odoo workflow.</p>
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0 0 22px 0;">
+        <tr>
+            <td align="center" style="padding:0 0 8px 0;">
+                <img src="screenshot1.png" alt="Phone Auto Format configuration page in Odoo Settings" width="900" style="width:100%; border:1px solid #dfe9e9;" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="color:#718087; font-size:13px; padding:0 8px 20px 8px;">One place to configure Phone Auto Format in Odoo Settings.</td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:0 0 8px 0;">
+                <img src="screenshot2.png" alt="Available phone number formatting options" width="900" style="width:100%; border:1px solid #dfe9e9;" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="color:#718087; font-size:13px; padding:0 8px 20px 8px;">Choose International, E.164, National or RFC 3966 formatting, or disable formatting.</td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:0 0 8px 0;">
+                <img src="screenshot3.png" alt="Multiple phone numbers supported in one phone field" width="900" style="width:100%; border:1px solid #dfe9e9;" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="color:#718087; font-size:13px; padding:0 8px 20px 8px;">Handle one number or multiple numbers in a single phone field.</td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:0 0 8px 0;">
+                <img src="screenshot4.png" alt="Formatted phone numbers on Odoo records" width="620" style="width:100%; border:1px solid #dfe9e9;" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="color:#718087; font-size:13px; padding:0 8px 4px 8px;">Consistent phone numbers on contacts and employee records.</td>
+        </tr>
+    </table>
+
+    <!-- SETUP -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 12px 0;">Get started in three steps</h2>
+    <table width="100%" border="0" cellpadding="0" cellspacing="8" style="margin:0 0 20px 0;">
+        <tr>
+            <td width="33%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:24px; font-weight:bold; margin:0 0 8px 0;">01</p>
+                <p style="color:#063c47; font-size:16px; font-weight:bold; margin:0 0 6px 0;">Install</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Install <strong>Phone Auto Format</strong> from Apps. Ensure the <em>phonenumbers</em> Python library is available in your Odoo environment.</p>
+            </td>
+            <td width="34%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:24px; font-weight:bold; margin:0 0 8px 0;">02</p>
+                <p style="color:#063c47; font-size:16px; font-weight:bold; margin:0 0 6px 0;">Choose a format</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Open <strong>Settings &gt; Phone Auto Format</strong>, select your preferred number format and save.</p>
+            </td>
+            <td width="33%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:24px; font-weight:bold; margin:0 0 8px 0;">03</p>
+                <p style="color:#063c47; font-size:16px; font-weight:bold; margin:0 0 6px 0;">You're ready</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Numbers are formatted when records are edited or saved. Set your company's country to help interpret numbers entered without a country code.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- FORMATS -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 10px 0;">Choose the format that fits your workflow</h2>
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="border:1px solid #dfe9e9; margin:0 0 22px 0;">
+        <tr>
+            <td width="30%" style="color:#087e79; font-weight:bold; border-bottom:1px solid #e7eeee;">International</td>
+            <td style="color:#4a5a5f; border-bottom:1px solid #e7eeee;">Displays numbers with an international country prefix and readable grouping.</td>
+        </tr>
+        <tr>
+            <td style="color:#087e79; font-weight:bold; border-bottom:1px solid #e7eeee;">E.164</td>
+            <td style="color:#4a5a5f; border-bottom:1px solid #e7eeee;">Uses the international standard representation, typically beginning with + and containing digits.</td>
+        </tr>
+        <tr>
+            <td style="color:#087e79; font-weight:bold; border-bottom:1px solid #e7eeee;">National</td>
+            <td style="color:#4a5a5f; border-bottom:1px solid #e7eeee;">Displays the number in the national format for its country.</td>
+        </tr>
+        <tr>
+            <td style="color:#087e79; font-weight:bold;">RFC 3966</td>
+            <td style="color:#4a5a5f;">Uses the tel URI format for standardized telephone number references.</td>
+        </tr>
+    </table>
+
+    <!-- OPTIONAL ADD-ONS -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 10px 0;">Extend coverage with optional add-ons</h2>
+    <table width="100%" border="0" cellpadding="0" cellspacing="8" style="margin:0 0 20px 0;">
+        <tr>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">Phone Auto Format — CRM</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Extends formatting to CRM leads and opportunities. Installs automatically when the CRM application is installed.</p>
+            </td>
+            <td width="50%" valign="top" bgcolor="#f3fafa" style="border:1px solid #dcebea; padding:18px; background-color:#f3fafa;">
+                <p style="color:#087e79; font-size:16px; font-weight:bold; margin:0 0 7px 0;">Phone Auto Format — Employees</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0;">Extends formatting to work, mobile, private and emergency phone fields. Installs automatically when the Employees application is installed.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- NOTES -->
+    <h2 style="color:#063c47; font-size:25px; font-weight:bold; margin:34px 0 10px 0;">Good to know</h2>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0 0 24px 0;">
+        <tr>
+            <td valign="top" width="22" style="color:#087e79; font-weight:bold; padding:5px 0;">&#8226;</td>
+            <td style="color:#4a5a5f; padding:5px 0;">Existing records are reformatted the next time they are saved; installation does not imply a bulk rewrite of every existing record.</td>
+        </tr>
+        <tr>
+            <td valign="top" style="color:#087e79; font-weight:bold; padding:5px 0;">&#8226;</td>
+            <td style="color:#4a5a5f; padding:5px 0;">Numbers entered without a country code use the contact's country, or your company's country as a fallback.</td>
+        </tr>
+        <tr>
+            <td valign="top" style="color:#087e79; font-weight:bold; padding:5px 0;">&#8226;</td>
+            <td style="color:#4a5a5f; padding:5px 0;">Designed for Odoo 19.0 Community and Enterprise editions.</td>
+        </tr>
+    </table>
+
+    <!-- SUPPORT FOOTER -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#eaf5f4" style="margin:30px 0 8px 0; border:1px solid #d5e9e7; background-color:#eaf5f4;">
+        <tr>
+            <td style="padding:24px 22px; background-color:#eaf5f4;">
+                <p style="color:#063c47; font-size:20px; font-weight:bold; margin:0 0 8px 0;">Questions or suggestions?</p>
+                <p style="color:#4a5a5f; font-size:14px; margin:0 0 14px 0;">Phone Auto Format is developed and maintained by <strong><a href="https://syed-sameed-zafar.vercel.app" target="_blank">Syed Sameed Zafar</a></strong>, Backend Engineer and Odoo / ERP Consultant.</p>
+                <p style="color:#087e79; font-size:15px; font-weight:bold; margin:0;">
+                    <a href="mailto:sameedzfr@gmail.com" style="color:#087e79; text-decoration:underline;">sameedzfr@gmail.com</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+
 </div>
-</section>
