@@ -1,0 +1,15 @@
+{
+    'name': 'Phone Auto Format - CRM',
+    'summary': 'Auto-format phone numbers on CRM leads and opportunities',
+    'version': '19.0.1.1.0',
+    'category': 'Tools',
+    'author': 'Syed Sameed Zafar',
+    'maintainer': 'Syed Sameed Zafar',
+    'website': 'https://syed-sameed-zafar.vercel.app/',
+    'license': 'LGPL-3',
+    'depends': ['phone_autoformat', 'crm'],
+    'images': ['static/description/icon.png'],
+    'installable': True,
+    'auto_install': True,
+    'application': False,
+}
