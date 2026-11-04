@@ -1,7 +1,7 @@
 {
     'name': 'Phone Auto Format - Employees',
     'summary': 'Auto-format work, mobile, private and emergency phone numbers on employees',
-    'version': '19.0.1.1.1',
+    'version': '16.0.1.1.1',
     'category': 'Tools',
     'author': 'Syed Sameed Zafar',
     'maintainer': 'Syed Sameed Zafar',

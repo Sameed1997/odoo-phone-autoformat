@@ -5,24 +5,45 @@
         <field name="model">res.config.settings</field>
         <field name="inherit_id" ref="base.res_config_settings_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//form" position="inside">
-                <app string="Phone Auto Format" name="phone_autoformat" groups="base.group_system">
-                    <block title="Phone Number Formatting" name="phone_autoformat_block">
-                        <setting string="Number format" id="phone_autoformat_format_setting"
-                                 help="How phone numbers are written once saved. Numbers typed without a + use the contact's country, or the company's country as a fallback.">
-                            <field name="phone_autoformat_format" class="o_light_label"/>
-                        </setting>
-                        <setting string="Numbers per field" id="phone_autoformat_multiple_setting"
-                                 help="Choose whether one phone field may hold several numbers separated by commas.">
-                            <field name="phone_autoformat_multiple" class="o_light_label"/>
-                        </setting>
-                        <div class="mt-3 text-muted small">
-                            Developed by <strong>Syed Sameed Zafar</strong> &#8211;
-                            <a href="mailto:sameedzfr@gmail.com">sameedzfr@gmail.com</a> &#8211;
-                            <a href="https://syed-sameed-zafar.vercel.app/" target="_blank" rel="noopener">syed-sameed-zafar.vercel.app</a>
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-string="Phone Auto Format" string="Phone Auto Format" data-key="phone_autoformat" groups="base.group_system">
+                    <h2>Phone Number Formatting</h2>
+                    <div class="row mt16 o_settings_container" name="phone_autoformat_container">
+                        <div class="col-12 col-lg-6 o_setting_box" id="phone_autoformat_format_setting">
+                            <div class="o_setting_left_pane"/>
+                            <div class="o_setting_right_pane">
+                                <label for="phone_autoformat_format"/>
+                                <div class="text-muted">
+                                    How phone numbers are written once saved. Numbers typed without a + use the contact's country, or the company's country as a fallback.
+                                </div>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="phone_autoformat_format" class="o_light_label"/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </block>
-                </app>
+                        <div class="col-12 col-lg-6 o_setting_box" id="phone_autoformat_multiple_setting">
+                            <div class="o_setting_left_pane"/>
+                            <div class="o_setting_right_pane">
+                                <label for="phone_autoformat_multiple"/>
+                                <div class="text-muted">
+                                    Choose whether one phone field may hold several numbers separated by commas.
+                                </div>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="phone_autoformat_multiple" class="o_light_label"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt16 text-muted small">
+                        Developed by <strong>Syed Sameed Zafar</strong> &#8211;
+                        <a href="mailto:sameedzfr@gmail.com">sameedzfr@gmail.com</a> &#8211;
+                        <a href="https://syed-sameed-zafar.vercel.app/" target="_blank" rel="noopener">syed-sameed-zafar.vercel.app</a>
+                    </div>
+                </div>
             </xpath>
         </field>
     </record>

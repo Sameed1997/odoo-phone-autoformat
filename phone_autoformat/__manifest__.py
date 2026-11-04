@@ -1,7 +1,7 @@
 {
     'name': 'Phone Auto Format',
     'summary': 'Automatically format phone numbers on contacts, with a format chosen in Settings',
-    'version': '19.0.1.1.1',
+    'version': '16.0.1.1.1',
     'category': 'Tools',
     'author': 'Syed Sameed Zafar',
     'maintainer': 'Syed Sameed Zafar',
