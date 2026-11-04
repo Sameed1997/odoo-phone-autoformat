@@ -1,7 +1,7 @@
 {
     'name': 'Phone Auto Format - CRM',
     'summary': 'Auto-format phone numbers on CRM leads and opportunities',
-    'version': '19.0.1.1.1',
+    'version': '18.0.1.1.1',
     'category': 'Tools',
     'author': 'Syed Sameed Zafar',
     'maintainer': 'Syed Sameed Zafar',
