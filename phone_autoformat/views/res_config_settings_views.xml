@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="base.res_config_settings_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//form" position="inside">
-                <app string="Phone Auto Format" name="phone_autoformat" groups="base.group_system">
+                <app data-string="Phone Auto Format" string="Phone Auto Format" name="phone_autoformat" groups="base.group_system">
                     <block title="Phone Number Formatting" name="phone_autoformat_block">
                         <setting string="Number format" id="phone_autoformat_format_setting"
                                  help="How phone numbers are written once saved. Numbers typed without a + use the contact's country, or the company's country as a fallback.">
